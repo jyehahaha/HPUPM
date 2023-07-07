@@ -597,10 +597,10 @@
  /* Carousel 1/2 of screen */
     
  .carousel-item.active, .carousel-item .view {
-    height: 80vh!important;
+    height: 50vh!important;
   }
   .carousel-item.active, .carousel-item  {
-    height: 80vh!important;
+    height: 50vh!important;
   }
 
   .carousel-item img {
@@ -680,10 +680,10 @@
     /* Carousel 1/2 of screen */
 
 .carousel-item.active, .carousel-item .view {
-    height: 80vh!important;
+    height: 50vh!important;
   }
   .carousel-item.active, .carousel-item  {
-    height: 80vh!important;
+    height: 50vh!important;
   }
 
   .carousel-item img {
@@ -699,10 +699,10 @@
     /* Carousel 1/2 of screen */
 
 .carousel-item.active, .carousel-item .view {
-    height: 80vh!important;
+    height: 50vh!important;
   }
   .carousel-item.active, .carousel-item  {
-    height: 80vh!important;
+    height: 50vh!important;
   }
 
   .carousel-item img {
