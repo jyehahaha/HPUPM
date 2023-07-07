@@ -44,33 +44,37 @@
     <main>
         <div class="container">
             <form>
-                <img class="mb-4 text-center" src="{% static 'frontend/img/UPM.jpeg' %}">
-                <h1 class="h3 mb-3 fw-normal">Login</h1>
-            
-                <div class="form-floating">
-                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                  <label for="floatingInput">Email address</label>
+                <h1 class="h3 mb-3 fw-bold text-center">Login</h1>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-floating">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                          </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-floating">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                          </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="checkbox mb-3">
+                            <label>
+                              <input type="checkbox" value="remember-me">Remember me
+                            </label>
+                          </div>
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button class="w-100 btn btn-primary" type="submit">Login</button>
+                        <button class="w-100 btn btn-warning" type="reset">Reset</button>
+                    </div>
                 </div>
-                <div class="form-floating">
-                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                  <label for="floatingPassword">Password</label>
-                </div>
-            
-                <div class="checkbox mb-3">
-                  <label>
-                    <input type="checkbox" value="remember-me">Remember me
-                  </label>
-                </div>
-                <div class="d-grid gap-2">
-                    <button class="w-100 btn btn-primary" type="submit">Login</button>
-                    <button class="w-100 btn btn-warning" type="reset">Reset</button>
-                </div>
-              
             </form>
         </div>
       </main>
      <!-- Footer Start -->
-    <footer>
+    <footer class="sticky-bottom">
         <div class="container-fluid bg-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="container py-5">
                 <div class="row g-5">
