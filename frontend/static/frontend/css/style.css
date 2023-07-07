@@ -6,6 +6,10 @@
     --dark: #1C2035;
 }
 
+.bg-primary {
+    background-color: var(--primary);
+}
+
 .back-to-top {
     position: fixed;
     display: none;
