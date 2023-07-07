@@ -6,3 +6,9 @@ def IndexView(request):
 
     }
     return render(request,'frontend/index.html', context)
+
+def LoginView(request):
+    context = {
+
+    }
+    return render(request,'frontend/index.html', context)
