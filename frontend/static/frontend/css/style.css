@@ -42,12 +42,10 @@
 .btn {
     transition: .5s;
     font-weight: 500;
-}
-
-.btn-primary {
     color: var(--primary);
 }
 
+.btn-primary,
 .btn-outline-primary:hover {
     color: var(--light);
 }
