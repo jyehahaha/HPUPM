@@ -44,7 +44,10 @@
     font-weight: 500;
 }
 
-.btn-primary,
+.btn-primary {
+    color: var(--primary);
+}
+
 .btn-outline-primary:hover {
     color: var(--light);
 }
